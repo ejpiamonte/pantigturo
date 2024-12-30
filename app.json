@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "PantigTuro",
+    "slug": "PantigTuro2",
+    "scheme": "pantigturo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/App-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/App-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#86cad7"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pantigturo",
+      "newArchEnabled": false
+    },
+    "android": {
+      "package": "com.Pantigturo2",
+      "newArchEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./Fonts/CabinetGrotesk-Extrabold.ttf",
+            "./Fonts/Erode-Semibold.ttf",
+            "./Fonts/Gambarino-Regular.ttf",
+            "./Fonts/Satoshi-Medium.ttf",
+            "./Fonts/Synonym-Regular.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5be87429-9116-4539-9453-395004045f3e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5be87429-9116-4539-9453-395004045f3e"
+    }
+  }
+}

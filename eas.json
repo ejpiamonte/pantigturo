@@ -1,0 +1,49 @@
+{
+  "cli": {
+    "version": ">= 14.0.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal",
+      "channel": "preview"
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "distribution": "internal",
+      "channel": "preview2"
+    },
+    "preview3": {
+      "developmentClient": true,
+      "channel": "preview3"
+    },
+    "preview4": {
+      "distribution": "internal",
+      "channel": "preview4"
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "production"
+    },
+    "Pantigturo": {
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "pantigturo"
+    }
+  }
+}
