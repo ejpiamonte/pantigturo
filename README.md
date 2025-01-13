@@ -10,7 +10,6 @@ Key features include story functions with audio synchronized text highlighting (
 ## Video Demo
 [![Watch the video](https://github.com/ejpiamonte/pantigturo/blob/main/Thumbnail.jpg)](https://github.com/ejpiamonte/pantigturo/raw/refs/heads/main/PantigTuro%20Demo.mp4)
 
-
 ---
 
 ## User Instructions
@@ -50,12 +49,15 @@ Key features include story functions with audio synchronized text highlighting (
  
    If you encounter problems please refer to the [latest Expo documentation](https://docs.expo.dev/) for instructions to set up the Expo CLI and install dependencies for a React Native bare workflow project.
 
-3. **Run the App**
+3. **Install Expo Go**
+   - Download and install the **Expo Go** app from the Google Play Store.
+
+4. **Run the App**
    ```bash
    npx expo start
    ```
 
-4. **Development Notes**
+5. **Development Notes**
    - The app uses TypeScript for type safety.
    - Story functions include audio-text synchronization, inspired by Spotify's lyric highlighting.
    - Game functions randomize quizzes each time they are accessed and manage persistent score states using SQLite.
